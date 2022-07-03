@@ -3,17 +3,17 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num, cont=1,soma=0
+		inteiro quantidadeRepeticoes, contador=1,soma=0
 		
 		escreva("\nEntre com um número qualquer: ")
-		leia(num)
+		leia(quantidadeRepeticoes)
 		
 		faca
 		{
-			soma = soma+cont
-			cont++
+			soma = soma+contador
+			contador++
 		}
-		enquanto(cont<=num)
+		enquanto(contador <= quantidadeRepeticoes)
 		escreva("\nSomatório: ",soma)
 	}
 }
@@ -22,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 230; 
+ * @POSICAO-CURSOR = 240; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
