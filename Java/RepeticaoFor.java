@@ -9,7 +9,7 @@ public class RepeticaoFor {
 		int x;
 	
 		for(x= 1000; x < 2000; x++) {
-			if (x%11== 5);
+			if (x%11== 5)
 			{
 				System.out.println("\nO número: " + x + ", divide por 11 e resta 5!");
 			}
